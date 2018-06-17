@@ -8,7 +8,7 @@ var homeHtml = "" +
                         "<h2>Kennan Smith - Full-Stack Web Developer, Lover of Creativity</h2>" +
                     "</div>" +
                     "<div class='homePic row text-center'>" +
-                        "<img src='assets/images/suited_headshot.jpg' alt='Headshot of Kennan Smith' />"
+                        "<img src='assets/images/suited_headshot.jpg' alt='Headshot of Kennan Smith' />" +
                     "</div>" +
                     "<div class='homeSummary row text-center'>" +
                         "<h4>A Passion for Simple, yet Unique Creations</h4>" +
