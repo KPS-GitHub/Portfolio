@@ -30,7 +30,7 @@ var contactMeHtml = "" +
 // jquery that displays the correct html "page"
 
 // initially display the home "page"
-$(".main").html(homeHtml);
+$("#main").html(homeHtml);
 
 
 
