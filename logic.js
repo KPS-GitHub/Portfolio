@@ -3,7 +3,6 @@ $(document).ready(function() {
 // html "pages"
 var homeHtml = "" + 
 
-                "<div id='container'>" + 
                     "<div class='homeTitle row text-center'>" +
                         "<h2>Kennan Smith - Full-Stack Web Developer, Lover of Creativity</h2>" +
                     "</div>" +
@@ -17,7 +16,6 @@ var homeHtml = "" +
                     "<div class='row'>" +
                         "<button id='portfolioButton'>My Projects</button>" +
                     "</div>" +
-                "</div>" +
 
                 "";
 
@@ -34,6 +32,8 @@ var contactMeHtml = "" +
                     "";
 
 // jquery that displays the correct html "page"
+
+// initially display the home "page"
 
 
 }); //end of docready
