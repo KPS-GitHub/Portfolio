@@ -1,2 +1,2 @@
 # Portfolio
-My professional webpage/portfolio
+Kennan Smith's professional webpage/portfolio
