@@ -1,2 +1,1 @@
-# Portfolio
-Kennan Smith's professional webpage/portfolio
+# readme - fill this out
