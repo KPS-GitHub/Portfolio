@@ -1,15 +1,50 @@
+body {
+    background-image: url("../assets/images/lightBlueBg2.jpg");
+    background-size: 100%;
+}
+
+.row {
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
 .item img {
     width: 100%;
     background-position: center center;
+    opacity: 0.8;
+}
+
+.carousel-bg-img {
+    height: 75vh !important;
 }
 
 #about {
-    bottom: 30%;
+    color: #d5ffef;
 }
 
 #cssMe {
-    height: 20%;
+    height: 5%;
     width: 20%;
+    opacity: 0.9;
+    border-radius: 90%;
+    border: none;
+}
+
+#footer {
+    height: 50px;
+    background-color: rgba(139, 255, 255, 0.4);
+    border-top: 5px solid black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.webLinks {
+    background-color: rgba(139, 255, 255, 0.4);
+    border-bottom: 5px solid black;
+}
+
+.grayBg {
+    background-color: rgba(191, 191, 191, 0.1);
 }
 
 /* The animation code */
@@ -69,4 +104,13 @@
     .carousel-caption {
         font-size: 20px;
     }
+}
+
+
+
+/* CLEARFIX */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
