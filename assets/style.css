@@ -39,8 +39,26 @@ body {
 }
 
 .webLinks {
+    text-align: center;
+    text-decoration: none;
     background-color: rgba(139, 255, 255, 0.4);
     border-bottom: 5px solid black;
+    min-height: 75px;
+    max-height: 100px;
+    padding-top: 2%;
+    padding-right: 4%;
+}
+
+.webLinks ul {
+    list-style-type: none;
+}
+
+.webLinks li {
+    display: inline;
+}
+
+.webLinkIcon {
+    width: 30%;
 }
 
 .grayBg {
