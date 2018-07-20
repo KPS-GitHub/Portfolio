@@ -18,6 +18,10 @@ body {
     height: 75vh !important;
 }
 
+.pfPiece {
+    max-width: 200px;
+}
+
 #about {
     color: #d5ffef;
 }
