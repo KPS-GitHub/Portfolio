@@ -43,7 +43,6 @@ body {
 }
 
 .webLinks {
-    text-align: center;
     text-decoration: none;
     background-color: rgba(139, 255, 255, 0.4);
     border-bottom: 5px solid black;
