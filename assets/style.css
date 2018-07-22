@@ -19,10 +19,6 @@ body {
     transform-style: preserve-3d;
 }
 
-.item {
-    /* font-size: 2vw; */
-}
-
 .item img {
     width: 100%;
     background-position: center center;
@@ -35,6 +31,18 @@ body {
 
 .pfPiece {
     max-width: 175px;
+}
+
+#about h1 {
+    font-size: 4.5vw;
+}
+
+#about h3 {
+    font-size: 2.5vw;
+}
+
+#about p {
+    font-size: 1.5vw;
 }
 
 #cssMe {
@@ -95,41 +103,40 @@ body {
 
 
 /* MEDIA QUERIES */
-/* IMPORTANT - ADJUST THESE TO TARGET SPECIFIC CAROUSEL SLIDES AS NEEDED */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    /* .carousel-caption {
-        font-size: 10px;
-    } */
+    #about h1 {
+        font-size: 7vw;
+    }
+    
+    #about h3 {
+        font-size: 4vw;
+    }
+    
+    #about p {
+        font-size: 2.5vw;
+    }
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    /* .carousel-caption {
-        font-size: 10px;
-    } */
+
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    /* .carousel-caption {
-        font-size: 10px;
-    } */
+
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    /* .carousel-caption {
-        font-size: 20px;
-    } */
+
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    /* .carousel-caption {
-        font-size: 20px;
-    } */
+
 }
 
 
