@@ -52,6 +52,14 @@ body {
     border: none;
 }
 
+#contact form {
+    max-height: 50vh;
+}
+
+.form_row {
+    height: 15vh;
+}
+
 #footer {
     height: 8vh;
     background-color: rgba(139, 255, 255, 0.4);
@@ -116,6 +124,15 @@ body {
     
     #about p {
         font-size: 3vw;
+    }
+
+    .formNameSec {
+        margin-top: 1vh;
+        margin-bottom: .6vh;
+    }
+
+    #cssMe {
+        width: 20vw;
     }
 } 
 
