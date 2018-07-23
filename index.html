@@ -138,42 +138,33 @@
                                         <div class="col-md-6 col-md-offset-3" id="form_container">
                                             <h2>Contact Me</h2>
                                             <hr>
-                                            <form action="mailto:kennan.smith1@gmail.com" method="post" enctype="text/plain">
-                                    
-                                                <div class="row form_row">
-                                                    <div class="col-sm-12 form-group">
-                                                        <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Your message to me..." maxlength="6000" rows="3"></textarea>
-                                                    </div>
+                                            <form action="mailto:example@example.com?subject=Test" method="post" enctype="text/plain" class="form-horizontal">
+                                                <div class="form_first_row">
+                                                  <div class="col-sm-12">
+                                                    <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                                                  </div>
                                                 </div>
-                                                <div class="row form_row">
-                                                    <div class="col-sm-6 form-group formNameSec">
-                                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your name..." required>
-                                                    </div>
-                                                    <div class="col-sm-6 form-group">
-                                                        <input type="email" class="form-control" id="email" name="email" placeholder="Your email address..." required>
-                                                    </div>
+                                                <div class="form_row">                                             
+                                                  <div class="col-sm-12">
+                                                    <input type="text" class="form-control" name="company" id="company" placeholder="Company">
+                                                  </div>
                                                 </div>
-                                    
-                                                <hr>
-                                    
-                                                <div class="row">
-                                                    <div class="col-sm-12 form-group">
-                                                        <input type="submit" value="Send" class="btn-default">
-                                                        <input type="reset" value="Reset" class="btn-default">
-                                                    </div>
+                                                <div class="form_row">
+                                                  <div class="col-sm-12">
+                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                                  </div>
                                                 </div>
-                                
+                                                <div class="form_row">
+                                                  <div class="col-sm-12">
+                                                    <textarea class="form-control" rows="3" name="message" placeholder="Your Message"></textarea>
+                                                  </div>
+                                                </div>
+                                                <div class="form_submit">
+                                                  <div class="col-sm-12">
+                                                    <button type="submit" class="btn btn-default">Send</button>
+                                                  </div>
+                                                </div>
                                             </form>
-
-                                            <div id="success_message" style="width:100%; height:100%; display:none; ">
-                                                <h3>Posted your message successfully!</h3>
-                                            </div>
-                                            <div id="error_message"
-                                                    style="width:100%; height:100%; display:none; ">
-                                                        <h3>Error</h3>
-                                                        Sorry there was an error sending your form.
-                                    
-                                            </div>
                                         </div>
                                     </div>
                                 </div>

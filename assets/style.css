@@ -4,6 +4,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a p {
+    text-decoration: none;
+    color: white;
+}
+
 #carousel-generic {
     margin-right: -15px;
     margin-left: -15px;
@@ -34,6 +39,11 @@ body {
     max-width: 175px;
 }
 
+.pfPiece:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
 #about h1 {
     font-size: 4vw;
 }
@@ -54,11 +64,15 @@ body {
 }
 
 #contact form {
-    max-height: 50vh;
+    margin-bottom: 13vh;
 }
 
 .form_row {
-    height: 15vh;
+    margin: .5vh;
+}
+
+.form_first_row {
+    margin: 0vh .5vh .5vh .5vh;
 }
 
 .btn-default {
@@ -139,6 +153,10 @@ body {
     #cssMe {
         width: 18vw;
     }
+
+    .pfPiece {
+        font-size: 75%;
+    }
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -148,12 +166,32 @@ body {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    #contact form {
+        margin-bottom: 60vh;
+    }
+    
+    .form_row {
+        margin: 1.5vh;
+    }
 
+    .form_first_row {
+        margin: 0vh 1.5vh 1.5vh 1.5vh;
+    }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    #contact form {
+        margin-bottom: 29vh;
+    }
+    
+    .form_row {
+        margin: 4vh;
+    }
 
+    .form_first_row {
+        margin: 0vh 4vh 4vh 4vh;
+    }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
