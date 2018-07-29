@@ -104,8 +104,8 @@ a p {
 
 .webLinkIcon {
     height: 8vh;
-    padding: 1vh;
-}
+    /* padding: 1vh; */
+} 
 
 
 /* The animation code */
@@ -157,11 +157,19 @@ a p {
     .pfPiece {
         font-size: 75%;
     }
+
+    .webLinkIcon {
+        padding-right: 3.5vh;
+        height: 7vh;
+    }
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+    .webLinkIcon {
+        padding-right: 1.5vh;
+        height: 6vh;
+    }
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -192,11 +200,19 @@ a p {
     .form_first_row {
         margin: 0vh 4vh 4vh 4vh;
     }
+
+    .webLinkIcon {
+        padding-right: .5vh;
+        height: 7vh;
+    }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+    .webLinkIcon {
+        padding-left: 2.5vh;
+        height: 8vh;
+    }
 }
 
 
